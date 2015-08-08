@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @EnableResourceServer
 public class OAuthResourceServer extends ResourceServerConfigurerAdapter {
 
-	protected String RESOURCE_ID = "TruPay";
+	protected String RESOURCE_ID = "SpringSecurityJPA";
 
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resource)
