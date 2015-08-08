@@ -22,7 +22,7 @@ import com.tupa.app.data.Bank;
 @PropertySource("classpath:/application.properties")
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages="com.tupa.app.repository")
+@EnableJpaRepositories(basePackages="com.trupay.app.repository")
 @ComponentScan
 public class LocalDataSource {
 	
@@ -35,6 +35,7 @@ public class LocalDataSource {
 		dataSource.setUsername(env.getProperty("spring.datasource.username"));
 		dataSource.setPassword(env.getProperty("spring.datasource.password"));
 		return dataSource;
+		
 	}
 
 	@Bean
@@ -53,8 +54,7 @@ public class LocalDataSource {
 	}
 
 	@Bean
-	public PlatformTransactionManager transactionManager (
-			EntityManagerFactory entityManagerFactory, DataSource dataSource)throws Exception {
+	public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory, DataSource dataSource)throws Exception {
 
 		JpaTransactionManager transactionManager = new JpaTransactionManager();
 		transactionManager.setEntityManagerFactory(entityManagerFactory(dataSource).getObject());
