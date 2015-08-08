@@ -30,7 +30,7 @@ public class OAuthAuthorizationServer extends AuthorizationServerConfigurerAdapt
 			// clients.jdbc(dataSource);
 			clients.inMemory().withClient("tupa").secret("mysecret")
 					.authorizedGrantTypes("password").scopes("read", "write")
-					.resourceIds("TruPay");
+					.resourceIds("SpringSecurityJPA");
 
 		}
 
