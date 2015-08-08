@@ -22,7 +22,7 @@ import com.tupa.app.data.Bank;
 @PropertySource("classpath:/application.properties")
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages="com.trupay.app.repository")
+@EnableJpaRepositories(basePackages="com.tupa.app.repository")
 @ComponentScan
 public class LocalDataSource {
 	
