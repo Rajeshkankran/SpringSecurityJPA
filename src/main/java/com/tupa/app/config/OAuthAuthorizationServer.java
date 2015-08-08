@@ -28,7 +28,7 @@ public class OAuthAuthorizationServer extends AuthorizationServerConfigurerAdapt
 		public void configure(ClientDetailsServiceConfigurer clients)
 				throws Exception {
 			// clients.jdbc(dataSource);
-			clients.inMemory().withClient("trupay").secret("mysecret")
+			clients.inMemory().withClient("tupa").secret("mysecret")
 					.authorizedGrantTypes("password").scopes("read", "write")
 					.resourceIds("TruPay");
 
