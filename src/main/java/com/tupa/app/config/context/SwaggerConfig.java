@@ -25,9 +25,9 @@ public class SwaggerConfig {
 		ApiInfo apiInfo = new ApiInfoBuilder()
 		.title("TruPay Api Doc")
 		.description("TruPay Restful Services API Doc")
-		.termsOfServiceUrl("http://localhost:8080/TruPay")
-		.contact("rajesh.k42@incedoinc.com")
-		.license("Incedo Inc")
+		.termsOfServiceUrl("http://localhost:8080/SpringSecurityJPA")
+		.contact("rajesh.k42@i.com")
+		.license("I Inc")
 		.build();
 		
 		swaggerPlugin.apiInfo(apiInfo);
