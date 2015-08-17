@@ -21,7 +21,7 @@ public class IndexController {
 	
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public String home() {
-		return "Welcome To TruPay";
+		return "Welcome To SpringSecurityJPA";
 	}
 	@RequestMapping(value="/index",method=RequestMethod.GET)
 	public String index() {
@@ -34,7 +34,7 @@ public class IndexController {
 		
 		bankService.createBank(temp);
 		
-		return "Welcome To TruPay";
+		return "Welcome To SpringSecurityJPA";
 	}
 	
 	@ExceptionHandler(Exception.class)
