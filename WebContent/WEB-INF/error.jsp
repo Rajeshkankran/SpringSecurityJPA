@@ -10,7 +10,7 @@
 <br>
 <br>
 <br>
-<div style="text-align: center;"><h2 style="font: bold;color:orange;">TruPay Services</h2></div> 
+<div style="text-align: center;"><h2 style="font: bold;color:orange;">Services</h2></div> 
 <h2 style="text-align: center;">===========================================</h2>
 <div style="text-align: center;"><h2 style="font: bold;color: maroon;">Oops! Something went wrong ... </h2></div> 										
 <h2 style="text-align: center;">===========================================</h2>
