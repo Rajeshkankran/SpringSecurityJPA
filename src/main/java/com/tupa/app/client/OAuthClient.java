@@ -21,7 +21,7 @@ public class OAuthClient {
 		
 		ownerDetails.setUsername("admin");
 		ownerDetails.setPassword("admin");
-		ownerDetails.setClientId("trupay");
+		ownerDetails.setClientId("tupa");
 		ownerDetails.setClientSecret("mysecret");
 		
 		
