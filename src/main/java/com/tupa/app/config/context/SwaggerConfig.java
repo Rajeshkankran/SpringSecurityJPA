@@ -23,8 +23,8 @@ public class SwaggerConfig {
 		SwaggerSpringMvcPlugin swaggerPlugin = new SwaggerSpringMvcPlugin(springSwaggerConfig);
 		
 		ApiInfo apiInfo = new ApiInfoBuilder()
-		.title("TruPay Api Doc")
-		.description("TruPay Restful Services API Doc")
+		.title("SpringSecurityJPA Api Doc")
+		.description("SpringSecurityJPA Restful Services API Doc")
 		.termsOfServiceUrl("http://localhost:8080/SpringSecurityJPA")
 		.contact("rajesh.k42@i.com")
 		.license("I Inc")
