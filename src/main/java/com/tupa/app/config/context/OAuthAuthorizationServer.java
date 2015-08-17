@@ -54,7 +54,7 @@ public class OAuthAuthorizationServer extends AuthorizationServerConfigurerAdapt
      	@Bean
       	public JwtAccessTokenConverter  tokenEnhancer(){
       		JwtAccessTokenConverter enhancer = new JwtAccessTokenConverter();
-      		//enhancer.setSigningKey("trupay");
+      		//enhancer.setSigningKey("SpringSecurityJPA");
       		return enhancer;
       	}
       	
