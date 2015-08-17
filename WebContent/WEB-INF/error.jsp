@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>TruPay Error</title>
+<title>SpringSecurityJPA Error</title>
 </head>
 <body style="background-color: olive;">
 <br>
