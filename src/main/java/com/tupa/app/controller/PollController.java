@@ -17,7 +17,7 @@ public class PollController {
 	public String index() {
 		
 		//throw new SampleException("exxxlxlx");
-		return "Welcome To TruPay";
+		return "Welcome To Tupa";
 	}
 	
 }
