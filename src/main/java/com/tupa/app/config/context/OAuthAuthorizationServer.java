@@ -15,7 +15,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 public class OAuthAuthorizationServer extends AuthorizationServerConfigurerAdapter{
 	
 	   // Logger logger = Logger.getLogger(OAuthAuthorizationServer.class);
-		protected String RESOURCE_ID = "TruPay";
+		protected String RESOURCE_ID = "SpringSecurityJPA";
 		
 		@Autowired
 		private AuthenticationManager authenticationManager;
@@ -30,12 +30,12 @@ public class OAuthAuthorizationServer extends AuthorizationServerConfigurerAdapt
       	@Override
 		public void configure(ClientDetailsServiceConfigurer clients)
 				throws Exception {
-			clients.inMemory().withClient("trupay")
+			clients.inMemory().withClient("SpringSecurityJPA")
 							  .secret("mysecret")
 							  .authorizedGrantTypes("password")
 							  .accessTokenValiditySeconds(60 * 60 * 24)
 							  .scopes("read", "write")
-					          .resourceIds("TruPay");
+					          .resourceIds("SpringSecurityJPA");
 		//	logger.info("configure-------------------------------------------------------------------------");
 		}
       	
